@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+  }
+  
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: repeating-conic-gradient(white 0deg 25%, black 0deg 50%);
+    background-size: 100px 100px;
+    border: 10px outset;
+    box-shadow: 0px 0px 30px 10px #000;
+  }
+
+  
